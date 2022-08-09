@@ -1,2 +1,5 @@
 # Sound-Analysis-Using-Deep-Learning
 Prediction Of Abnormalities In Heart Beat Sounds Using Convolutional Neural Networks
+
+
+Worldwide physicians prefer to use physical stethoscope and they listen to the heart beat sound and its rhythm to diagnose various heart conditions.  In this work various abnormalities that happened in heart will be reflected in the sound of the heartbeat. In this work we have created a classification system which is based on Convolutional Neural Network (CNN) to analyze the heart beat sound to predict the abnormalities. Heart beat sound is converted to spectrogram images and then CNN is trained with those images. In order to reduce the computational time, pooling is done, so that it reduces the parameters by taking particular pixel from particular part of pixels. The parameters in CNN are varied in the convolution and pooling layers to enhance the accuracy of classification of heart beat sound. Experiment is carried out by varying number of convolutional layers and by changing the pooling methods for various combinations of CNN models and the results are analyzed to find the optimal combination which can suit for sound analysis.
