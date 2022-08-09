@@ -1,0 +1,29 @@
+s = int(input("Enter The Number Of UPDOWNS\n"))
+
+string = input("Enter Your Choice\n")
+
+flag=0
+
+arr = [5,4,6,3,1,7,6,2,8,5]
+
+a=[]
+
+if(string == "up"):
+
+    while(1):
+
+        min = arr[0]
+
+        a.append(min)
+
+        for i in arr:
+
+            if i > min and s!=1:
+
+                min = i
+
+                a.append(min)
+
+                s-=1
+
+    print(a)
